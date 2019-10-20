@@ -6,21 +6,21 @@
   "keywords": [
     "homebridge-plugin",
     "homekit",
-    "wirenboard"
+    "sonoff"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/example/homebridge-lockitron.git"
+    "url": "git://github.com/myroom/homebridge-sonoff-mini-api-rest.git"
   },
   "bugs": {
-    "url": "http://github.com/example/homebridge-lockitron/issues"
+    "url": "https://github.com/myroom/homebridge-sonoff-mini-api-rest/issues"
   },
   "engines": {
     "node": ">=4.0.0",
     "homebridge": ">=0.2.0"
   },
   "dependencies": {
-    "request": "^2.65.0"
+    "superagent": "^5.0.2"
   },
   "homepage": "https://github.com/myroom/homebridge-sonoff-mini-api-rest#readme",
   "main": "index.js",
