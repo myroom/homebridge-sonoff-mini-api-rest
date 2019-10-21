@@ -73,7 +73,7 @@ SonoffAccessory.prototype.setState = function(state, callback) {
         callback(null, state);
       }
       else {
-        this.log("Function setState(). Error getting state (status code %s): %s", response.statusCode, error.message);
+        this.log("Function setState(). Error getting state (status code %s): %s", response, error.message);
         callback(error);
       }      
     });
