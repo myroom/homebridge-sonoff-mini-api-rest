@@ -49,7 +49,7 @@ SonoffAccessory.prototype.getState = function(callback) {
       callback(null, on); 
     }
     else {
-      this.log("Function getState(). Error getting state (status code %s): %s", response.statusCode, error.message);
+      this.log("Function getState(). Error getting state (status code %s): %s", response, error.message);
       callback(error);
     }
   });
