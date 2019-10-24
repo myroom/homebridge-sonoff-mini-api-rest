@@ -1,10 +1,6 @@
 # homebridge-sonoff-mini-api-rest
 
-<<<<<<< HEAD
 This plug-in enables you to control your Sonoff Mini DIY mode light bulb. To switch to mode, follow this <a href="https://github.com/itead/Sonoff_Devices_DIY_Tools/blob/master/SONOFF%20DIY%20MODE%20Protocol%20Doc%20v1.4.md"> instruction</a>
-=======
-This plug-in enables you to control your Sonoff Mini DIY mode light bulb. To switch to mode, follow this <a href="https://github.com/itead/Sonoff_Devices_DIY_Tools/blob/master/SONOFF%20DIY%20MODE%20Protocol%20Doc%20v1.4.md"> instruction</a> 
->>>>>>> 90ed661a0f7f02734f25f0aab03d61782bfd04ce
 
 ## Installation
 
