@@ -17,7 +17,7 @@ Chances are you are going to need sudo with that.
 	{
             "accessory": "Sonoff",
             "name": "Sonoff Mini DIY",
-            "uri": "http://192.168.1.24:8081",
+            "url": "http://192.168.1.24:8081",
             "id": "1000989596",
             "debug": false 
         }
@@ -27,7 +27,7 @@ Chances are you are going to need sudo with that.
 |---------------|------------------------------------------------------------------------------------|
 | accessory     | Required. Has to be "Sonoff"                                             			 |
 | name          | Required. The name of this accessory. This will appear in your Homekit app         |
-| uri           | Required. The url address that you discovered earlier                              |
+| url           | Required. The url address that you discovered earlier                              |
 | id            | Required. Id number																 |
 | debug			| Optional. Debug mode																 |
 

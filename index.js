@@ -16,7 +16,7 @@ function SonoffAccessory(log, config) {
   this.log = log;
   this.name = config["name"];
   this.id = config["id"];
-  this.uri = config["uri"];
+  this.url = config["url"];
   this.debug = config.debug || false;
 
   this.service = new Service.Lightbulb(this.name);
@@ -31,7 +31,7 @@ SonoffAccessory.prototype.getState = function(callback) {
   this.log("Getting current state...");
 
   superagent
-  .post(this.uri+'/zeroconf/info')
+  .post(this.url+'/zeroconf/info')
   .send({ "deviceid": this.id, "data": { } }) // sends a JSON post body
   .set('X-API-Key', 'foobar')
   .set('accept', 'json')
@@ -62,7 +62,7 @@ SonoffAccessory.prototype.setState = function(state, callback) {
   this.log("Set state to %s", SonoffState);
 
   superagent
-    .post(this.uri+'/zeroconf/switch')
+    .post(this.url+'/zeroconf/switch')
     .send({ "deviceid": this.id, "data": { "switch": SonoffState } }) // sends a JSON post body
     .set('X-API-Key', 'foobar')
     .set('accept', 'json')

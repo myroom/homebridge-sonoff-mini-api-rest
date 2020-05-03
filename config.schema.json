@@ -1,1 +1,37 @@
-{}
+{
+	"pluginAlias": "Sonoff",
+ 	"pluginType": "accessory",
+ 	"schema": {
+ 		"type": "object",
+        "properties": {
+	        "name": {
+                "type": "string",
+                "minLength": 1,
+                "required": true,
+                "title": "Name",
+                "description": "Name of accessory, as displayed in HomeKit."
+            },
+            "url": {
+                "type": "string",
+                "title": "URL",
+                "required": true,
+                "description": "The url address that you discovered earlier",
+                "placeholder": "http://localhost:8081"
+            },
+            "id": {
+            	"type": "string",
+            	"title": "ID",
+            	"required": true,
+            	"description": "Id device number ",
+            	"placeholder": "0000000000"
+            },
+            "debug": {
+                "type": "boolean",
+                "readOnly": false,
+                "writeOnly": false,
+                "title": "Debug mode",
+                "description": "Set to true to enable debug mode for this accessory"
+            }
+        }  
+    }
+}
