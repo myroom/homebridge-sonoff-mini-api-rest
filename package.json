@@ -20,7 +20,7 @@
     "homebridge": ">=0.2.0"
   },
   "dependencies": {
-    "superagent": "^5.0.2"
+    "superagent": "^5.2.2"
   },
   "homepage": "https://github.com/myroom/homebridge-sonoff-mini-api-rest#readme",
   "main": "index.js",
