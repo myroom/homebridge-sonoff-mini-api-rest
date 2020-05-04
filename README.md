@@ -1,3 +1,7 @@
+[![npm](https://badgen.net/npm/v/homebridge-sonoff-mini-api-rest/latest)](https://www.npmjs.com/package/homebridge-sonoff-mini-api-rest)
+[![npm](https://badgen.net/npm/dt/homebridge-sonoff-mini-api-rest)](https://www.npmjs.com/package/homebridge-sonoff-mini-api-rest)
+
+
 # homebridge-sonoff-mini-api-rest
 
 This plug-in enables you to control your Sonoff Mini DIY mode light bulb. To switch to mode, follow this <a href="https://github.com/itead/Sonoff_Devices_DIY_Tools/blob/master/SONOFF%20DIY%20MODE%20Protocol%20Doc%20v1.4.md"> instruction</a>
