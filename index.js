@@ -19,6 +19,11 @@ function SonoffAccessory(log, config) {
   this.url = config["url"];
   this.debug = config.debug || false;
 
+  // old version config
+  if(this.url === undefined) {
+    this.url = config["uri"];
+  }
+
   this.service = new Service.Lightbulb(this.name);
   
   this.service
