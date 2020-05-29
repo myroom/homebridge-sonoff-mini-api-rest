@@ -24,7 +24,18 @@ function SonoffAccessory(log, config) {
     this.url = config["uri"];
   }
 
-  this.service = new Service.Lightbulb(this.name);
+  if(this.type === undefined) {
+    this.type = "lightbulb";
+  }
+
+  switch (this.type) {
+      case "fan":
+        this.service = new Service.Fan(this.name);
+        break;
+      case "lightbulb":
+        this.service = new Service.Lightbulb(this.name);
+        break;
+  }
   
   this.service
     .getCharacteristic(Characteristic.On)

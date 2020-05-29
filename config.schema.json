@@ -4,6 +4,26 @@
  	"schema": {
  		"type": "object",
         "properties": {
+            "type": {
+                "type": "string",
+                "title": "Type",
+                "description": "Select the accessory type.",
+                "placeholder": "lightbulb",
+                "oneOf": [
+                    {
+                        "title": "Fan",
+                        "enum": [
+                            "fan"
+                        ]
+                    },
+                    {
+                        "title": "Light bulb",
+                        "enum": [
+                            "lightbulb"
+                        ]
+                    }
+                ]
+            },
 	        "name": {
                 "type": "string",
                 "minLength": 1,
