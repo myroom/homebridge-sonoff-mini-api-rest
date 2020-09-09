@@ -1,6 +1,6 @@
 {
   "_from": "homebridge-sonoff-mini-api-rest",
-  "_id": "homebridge-sonoff-mini-api-rest@1.1.8",
+  "_id": "homebridge-sonoff-mini-api-rest@1.1.9",
   "_inBundle": false,
   "_integrity": "sha512-lyZk36fAB6YBSK5yZ7qtCih5FWQxJ9yO/DVn/bReADzDlouKBXbLumGBktDct86U3gMSNFJh+x+6zdLHS99KtQ==",
   "_location": "/homebridge-sonoff-mini-api-rest",
