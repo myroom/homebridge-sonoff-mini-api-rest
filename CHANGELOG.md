@@ -3,5 +3,8 @@
 
 # Homebridge sonoff-mini-api-rest: Release Notes
 
+### Version 1.2.0
++ Bugs fixed
+
 ### Version 1.1.7
 + Added types of accessories
