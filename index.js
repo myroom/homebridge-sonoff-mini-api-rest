@@ -54,12 +54,10 @@ SonoffAccessory.prototype.getState = function(callback) {
   .end((error, response) => {
     if (!error && response.statusCode == 200) {
       var json = JSON.parse(response.text).data;
-      //var state = JSON.parse(json).switch;
-      var state = JSON.parse(response.text).data.switch;
+      var state = JSON.parse(json).switch;
 
       if (this.debug)           
-          //this.log('getState() request returned successfully ('+response.statusCode+'). Body: '+JSON.stringify(json));
-        this.log('getState() request returned successfully ('+response.statusCode+'). Body: '+response.text);
+          this.log('getState() request returned successfully ('+response.statusCode+'). Body: '+JSON.stringify(json));
 
       this.log("Sonoff state is %s", state);
 

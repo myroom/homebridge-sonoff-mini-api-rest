@@ -1,8 +1,45 @@
 {
-  "name": "homebridge-sonoff-mini-api-rest",
-  "version": "1.1.7",
+  "_from": "homebridge-sonoff-mini-api-rest",
+  "_id": "homebridge-sonoff-mini-api-rest@1.1.8",
+  "_inBundle": false,
+  "_integrity": "sha512-lyZk36fAB6YBSK5yZ7qtCih5FWQxJ9yO/DVn/bReADzDlouKBXbLumGBktDct86U3gMSNFJh+x+6zdLHS99KtQ==",
+  "_location": "/homebridge-sonoff-mini-api-rest",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "homebridge-sonoff-mini-api-rest",
+    "name": "homebridge-sonoff-mini-api-rest",
+    "escapedName": "homebridge-sonoff-mini-api-rest",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/homebridge-sonoff-mini-api-rest/-/homebridge-sonoff-mini-api-rest-1.1.7.tgz",
+  "_shasum": "78157dc805200988e779ee740b63d3f78829d41e",
+  "_spec": "homebridge-sonoff-mini-api-rest",
+  "_where": "/Users/wizard/Documents/GitHub/homebridge-sonoff-mini-api-rest",
+  "author": {
+    "name": "Alexandr Usoltsev"
+  },
+  "bugs": {
+    "url": "https://github.com/myroom/homebridge-sonoff-mini-api-rest/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "superagent": "^5.2.2"
+  },
+  "deprecated": false,
   "description": "Plugin for Sonoff Mini REST API: https://github.com/myroom/homebridge-sonoff-mini-api-rest",
-  "license": "ISC",
+  "engines": {
+    "homebridge": ">=0.2.0",
+    "node": ">=4.0.0"
+  },
+  "homepage": "https://github.com/myroom/homebridge-sonoff-mini-api-rest#readme",
   "keywords": [
     "homebridge-plugin",
     "homekit",
@@ -11,21 +48,12 @@
     "fan",
     "IoT"
   ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "homebridge-sonoff-mini-api-rest",
   "repository": {
     "type": "git",
     "url": "git://github.com/myroom/homebridge-sonoff-mini-api-rest.git"
   },
-  "bugs": {
-    "url": "https://github.com/myroom/homebridge-sonoff-mini-api-rest/issues"
-  },
-  "engines": {
-    "node": ">=4.0.0",
-    "homebridge": ">=0.2.0"
-  },
-  "dependencies": {
-    "superagent": "^5.2.2"
-  },
-  "homepage": "https://github.com/myroom/homebridge-sonoff-mini-api-rest#readme",
-  "main": "index.js",
-  "author": "Alexandr Usoltsev"
+  "version": "1.1.7"
 }
