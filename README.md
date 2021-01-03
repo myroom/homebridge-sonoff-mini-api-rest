@@ -22,7 +22,7 @@ Chances are you are going to need sudo with that.
 ```json
 	{
             "accessory": "Sonoff",
-            "type": "lightbulb"
+            "type": "lightbulb",
             "name": "Sonoff Mini DIY",
             "url": "http://192.168.1.24:8081",
             "id": "1000989596",
